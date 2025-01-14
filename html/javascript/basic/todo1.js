@@ -98,18 +98,17 @@
 
 
 
-// 94576분은 몇 일, 몇 시간, 몇 분 입니까
-// > 94576분은 65일 16시간 16분 입니다
+94576분은 몇 일, 몇 시간, 몇 분 입니까
+> 94576분은 65일 16시간 16분 입니다
 
 
-// let firstValue = prompt("분을 입력하세요! ");
+let firstValue = prompt("분을 입력하세요! ");
 
-// let day = parseInt(firstValue / (24 * 60));
-// let hour = parseInt((firstValue % (24 * 60)) / 60);
-// let min = firstValue % 60;
+let day = parseInt(firstValue / (24 * 60));
+let hour = parseInt((firstValue % (24 * 60)) / 60);
+let min = firstValue % 60;
 
-// console.log(`${firstValue}분은 ${day}일 ${hour}시간 ${min}분 입니다`);
+console.log(`${firstValue}분은 ${day}일 ${hour}시간 ${min}분 입니다`);
 
 
 
-// 오류 수정 
