@@ -10,19 +10,19 @@
 // 모두 다를 경우 0 출력
 
 
-// let num1 = parseInt(Math.random() * 10) + 1;
-// let num2 = parseInt(Math.random() * 10) + 1;
-// let num3 = parseInt(Math.random() * 10) + 1;
+let num1 = parseInt(Math.random() * 10) + 1;
+let num2 = parseInt(Math.random() * 10) + 1;
+let num3 = parseInt(Math.random() * 10) + 1;
 
-// console.log(num1, num2, num3);
+console.log(num1, num2, num3);
 
-// if (num1 == num2 && num1 == num3) {
-//   console.log(3);
-// } else if (num1 == num2 || num1 == num3 || num2 == num3) {
-//   console.log(2);
-// } else {
-//   console.log(0);
-// }
+if (num1 == num2 && num1 == num3) {
+  console.log(3);
+} else if (num1 == num2 || num1 == num3 || num2 == num3) {
+  console.log(2);
+} else {
+  console.log(0);
+}
 
 
 
@@ -98,14 +98,14 @@
 
 
 
-94576분은 몇 일, 몇 시간, 몇 분 입니까
-> 94576분은 65일 16시간 16분 입니다
+// 94576분은 몇 일, 몇 시간, 몇 분 입니까
+// > 94576분은 65일 16시간 16분 입니다
 
 
-let firstValue = prompt("분을 입력하세요! ");
+// let firstValue = prompt("분을 입력하세요! ");
 
-let day = parseInt(firstValue / (24 * 60));
-let hour = parseInt((firstValue % (24 * 60)) / 60);
-let min = firstValue % 60;
+// let day = parseInt(firstValue / (24 * 60));
+// let hour = parseInt((firstValue % (24 * 60)) / 60);
+// let min = firstValue % 60;
 
-console.log(`${firstValue}분은 ${day}일 ${hour}시간 ${min}분 입니다`);
+// console.log(`${firstValue}분은 ${day}일 ${hour}시간 ${min}분 입니다`);
