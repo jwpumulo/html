@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X행 Y열 표 생성</title>
+</head>
+
+
+<body>
+  <h1>XY열 표생성</h1>
+
+  x, y값을 입력 후 표 생성 버튼을 누르세요.
+  <br>
+  <label for="x">X 행: </label>
+  <input type="number" id="x" alt="숫자 입력">
+  <br>
+  <label for="y">Y 열: </label>
+  <input type="number" id="y" alt="숫자 입력">
+  <br>
+  <button>표 생성</button>
+
+  <h2>결과:</h2>
+  <div id="xyTable"></div>
+
+  <script>
+
+    
+    document.querySelector('button').addEventListener('click', function () {
+      let month = document.querySelector('[name="month"]').value;
+      console.log(xyTable);
+      makeTable(xyTable);
+
+    })
+
+
+    function makeTable() {
+     
+
+      
+      let tableContainer 
+      /
+      table += "</table>";
+
+     
+.innerHTML = table;
+    }
+  </script>
+</body>
+
+</html>
